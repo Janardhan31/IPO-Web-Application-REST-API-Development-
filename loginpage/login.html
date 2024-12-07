@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluestock Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="loginn.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="logo">
+        <img src="logo.png" alt="Bluestock Logo" class="logo-img">  
+        <h1>BLUESTOCK</h1>
+      </div>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="email" class="emPass">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+        </div>
+        
+        <div class="form-group password-group">
+          <div class="forget">
+          <label for="password" class="emPass">Password</label><span class="forget1">Forgot Password?</span></div>
+          <div class="password-wrapper">
+            <input type="password"  name="password" id="password" placeholder="******************" required>
+            <span class="toggle-password">
+              <img src="eye logo.png" alt="Eye Icon" class="eye-icon">
+            </span>
+          </div>
+        </div>
+
+    </div>
+    <div class="form-group checkbox-container">
+      <input type="checkbox" id="robot-check" name="robot-check">
+      <div for="robot-check">I'm not a robot</div>
+
+      <div>
+        <img src="re.png" class="recap-img" alt="Recaptcha">
+      </div>
+    </div>
+    <div class="form-group checkbox-inline">
+      <input type="checkbox" id="remember-me" name="remember-me">
+      <label for="remember-me">Keep me signed in</label>
+    </div>
+
+    <button type="submit" class="login-btn">Login</button>
+    </form>
+    <div class="alternate-login">
+      <p>or sign in with</p>
+      <button class="google-login">
+       <img src="google.png" class="google" alt="">
+        Continue with Google
+      </button>
+    </div>
+    <a href="#" class="create-account">Create an account</a>
+  </div>
+  </div>
+</body>
+
+</html>
